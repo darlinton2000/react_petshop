@@ -83,7 +83,10 @@ export function Services() {
                                                 <Clock className="w-4 h-4" />
                                                 <span>{item.duration}</span>
                                             </div>
-                                            <a href="#" className="flex items-center justify-center gap-2 hover:bg-red-500 px-4 py-1 rounded-md duration-300">
+                                            <a
+                                                target="_blank"
+                                                href={`https://wa.me/552499999999?text=Olá vim pelo site e gostaria de mais informações sobre ${item.title}`}
+                                                className="flex items-center justify-center gap-2 hover:bg-red-500 px-4 py-1 rounded-md duration-300">
                                                 <WhatsappLogo className="w-5 h-5" />
                                                 Entrar em contato
                                             </a>
