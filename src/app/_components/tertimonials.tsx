@@ -4,7 +4,7 @@ import useEmblaCarousel from 'embla-carousel-react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import tutor1 from '../../../public/images/tutor1.png'
 import tutor2 from '../../../public/images/tutor2.png'
-import Image from "next/image";
+import Image from "next/image"
 
 const testimonials = [
     {
